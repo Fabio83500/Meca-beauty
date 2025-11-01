@@ -10,7 +10,7 @@ import gel3 from "@/public/assets/images/gel/gel3.jpg"
 
 import semi1 from "@/public/assets/images/semi/semi1.jpg"
 import semi2 from "@/public/assets/images/semi/semi2.jpg"
-import semi3 from "@/public/assets/images/semi/semi3.jpg"
+import semi3 from "@/public/assets/images/semi3.jpg"
 
 
 export default function Home() {
@@ -105,7 +105,7 @@ export default function Home() {
                                 <Image className='rounded-3xl' src={gel2} />
                                 <Image className='rounded-3xl' src={gel3} />
                                 <Image className='rounded-3xl' src={semi1} />
-                                <Image className='rounded-3xl' src={semi1} />
+                                <Image className='rounded-3xl' src={semi2} />
                                 <Image className='rounded-3xl' src={semi3} />
                         </div>
                     </div>
