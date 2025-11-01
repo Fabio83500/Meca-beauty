@@ -13,12 +13,11 @@ import gelx3 from "@/public/assets/images/test/americaine3.jpg"
 
 import semi1 from "@/public/assets/images/semi/semi1.jpg"
 import semi2 from "@/public/assets/images/semi/semi2.jpg"
-import semi3 from "@/public/assets/images/semi/semi3.jpg"
-
+import semi3 from '@/public/assets/images/semi/semi3.jpg'
 
 
 export default function Ongles() {
-    
+
     return (
         <>
             <div className='pt-10'>
