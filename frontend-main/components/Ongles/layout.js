@@ -18,6 +18,7 @@ import semi3 from "@/public/assets/images/semi/semi3.jpg"
 
 
 export default function Ongles() {
+    
     return (
         <>
             <div className='pt-10'>
