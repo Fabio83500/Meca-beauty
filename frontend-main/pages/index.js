@@ -28,12 +28,12 @@ export default function Home() {
          belle et écoutée. "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#EB3A3A"></meta>
+        <meta name="theme-color" content="#ED069E"></meta>
         <link rel="icon" href="/engine.ico" />
       </Head>
 
       <section id="accueil">
-        <nav className="bg-[#131615] z-50 relative sticky top-0 shadow-lg">
+        <nav className="bg-[#95216C] z-50 relative sticky top-0 shadow-lg">
           <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto py-4 px-4 md:px-0">
             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             </a>
@@ -51,27 +51,30 @@ export default function Home() {
               )}
             </button>
             <div className='hidden md:block'>
+              
               <ul className="flex space-x-10 items-center text-white ">
-                <li><a className="w-full hover:text-[#EB3A3A]" href="/#accueil">Accueil</a></li>
-                <li><a className="w-full hover:text-[#EB3A3A]" href="/#carte">Services</a></li>
-                <li><a className="w-full hover:text-[#EB3A3A]" href="/#apropos">A propos</a></li>
+                
+                <li><a className="w-full hover:text-[#ED069E]" href="/#accueil">Accueil</a></li>
+                <li><a className="w-full hover:text-[#ED069E]" href="/#ongles"> Beauté des ongles</a></li>
+                <li><a className="w-full hover:text-[#ED069E]" href="/#quiSommesNous">Qui sommes nous</a></li>
+                <li><a className="w-full bg-white px-4 py-1 rounded-2xl text-[#ED069E]" href="/contact">Me contacter</a></li>
               </ul>
             </div>
             {/* Menu Mobile */}
             <div className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-[#131615] 
       text-white md:hidden`}>
               <ul className="flex flex-col p-4 space-y-2">
-                <li><a href="/#carte" className="block py-2 px-3">La carte</a></li>
-                <li><a href="/#apropos" className="block py-2 px-3">A propos</a></li>
+                <li><a href="/#ongles" className="block py-2 px-3">Beauté des ongles</a></li>
+                <li><a href="/#quiSommesNous" className="block py-2 px-3">Qui sommes nous</a></li>
               </ul>
             </div>
           </div>
         </nav>
         <Hero />
-        <div className='md:relative 2xl:-top-16 xl:-top-8'>
+        <div className='md:relative 2xl:-top-16 md:xl:-top-8 px-4 md:px-8 xl:px-0'>
           <Services />
         </div>
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto px-4 md:px-8 xl:px-0'>
           <Ongles />
           <QuiSommesNous />
           <EmbelissementRegard />

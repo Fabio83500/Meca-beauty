@@ -39,7 +39,7 @@ export default function QuiSommesNous() {
                         Prenez rendez-vous et venez découvrir l’expérience MECA Beauty, là où la beauté rencontre la passion.
                     </p>
                 </div>
-                <Image src={imgQuiSommesNous} alt="Qui sommes nous" className="w-full h-[55rem] object-cover rounded-2xl" />
+                <Image src={imgQuiSommesNous} alt="Qui sommes nous" className="w-full h-[55rem] object-cover rounded-3xl" />
             </div>
         </>
     )

@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import imgOngles from "@/public/assets/images/imgOngles.jpg"
+import Link
+ from 'next/link'
 import gel1 from "@/public/assets/images/gel/gel1.jpg"
 import gel2 from "@/public/assets/images/gel/gel2.jpg"
 import gel3 from "@/public/assets/images/gel/gel3.jpg"
@@ -18,8 +20,8 @@ import semi3 from "@/public/assets/images/semi/semi3.jpg"
 export default function Ongles() {
     return (
         <>
-            <div>
-                <h2 className='text-3xl font-semibold text-center text-[#ED069E] mb-4'>Beauté des ongles </h2>
+            <div className='pt-10'>
+                <h2 className='text-3xl font-semibold text-center text-[#ED069E] mb-10'>Beauté des ongles </h2>
                 <div className=' flex items-center justify-center'>
 
                    
@@ -28,9 +30,9 @@ export default function Ongles() {
 
 
 
-                <div id='quiSommesNous' className=' grid md:grid-cols-2 gap-x-20 '>
+                <div id='ongles' className=' grid md:grid-cols-2 gap-x-20 '>
 
-                    <Image src={imgOngles} alt="Qui sommes nous" className="object-cover h-[57.5rem] rounded-2xl" />
+                    <Image src={imgOngles} alt="Qui sommes nous" className="object-cover h-[57.5rem] rounded-3xl" />
                     <div>
                          <p className=' mt-4 text-centermb-10' >
                         Qu’est-ce qu’une Prothésiste Ongulaire ? <br/><br/>
@@ -61,50 +63,53 @@ export default function Ongles() {
                     </p>
                  
                         
-                         <div className="flex items-center justify-center mt-20 ">
-                        <a
-                        id="numTel" href="tel:"
-                            className="shadow-none w-fit rounded-md border-none flex items-center space-x-2 text-sm px-4 py-2.5
-                         font-medium text-white hover:bg-red-600 bg-[#ED069E] transition
+               
+                       <div className="flex items-center justify-center  pt-20">
+                        <div className="flex items-center justify-center ">
+                        <Link
+                         href="/contact"
+                            className="shadow-none w-fit rounded-2xl border-none flex items-center space-x-2 text-sm px-6 py-3
+                         font-medium text-white hover:bg-pink-600 bg-[#ED069E] transition
                           duration-150 ease-in-out">
-                            <svg id="numTel" className="w-5 h-5 text-white" fill="currentColor"
+                            <svg  className="w-5 h-5 text-white" fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
                                 <path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14
                                  0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 
                                  48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12Z"></path>
-                            </svg><span id="numTel" className="block text-xl">Prendre rendez-vous</span>
-                        </a>
+                            </svg><span  className="block text-xl">Prendre rendez-vous</span>
+                        </Link>
+                    </div>
                     </div>
                     </div>
                   
                 </div>
                      <div>
-                        <div>
+                        <div id='realisations'>
                             <span className='block text-2xl font-semibold text-[#ED069E] mt-10 mb-4 text-center'>Ongle en gel </span>
 
-                            <div className='grid grid-cols-3 gap-x-20'>
-                                <Image className='rounded-2xl' src={gel1} />
-                                <Image className='rounded-2xl' src={gel2} />
-                                <Image className='rounded-2xl' src={gel3} />
+                            <div className='grid grid-cols-3 gap-x-4 md:gap-x-20'>
+                                <Image className='rounded-3xl' src={gel1} />
+                                <Image className='rounded-3xl' src={gel2} />
+                                <Image className='rounded-3xl' src={gel3} />
                             </div>
 
                         </div>
                         <div className='my-10'>
                             <span className='block text-2xl font-semibold text-[#ED069E] mb-4 text-center'>Ongle en gel X / Pose américaine </span>
-                            <div className='grid grid-cols-3 gap-x-20'>
-                                <Image className='rounded-2xl' src={gelX1} />
-                                <Image className='rounded-2xl' src={gelX2} />
-                                <Image className='rounded-2xl' src={gelX3} />
+                            <div className='grid grid-cols-3 gap-x-4 md:gap-x-20'>
+                                <Image className='rounded-3xl' src={gelX1} />
+                                <Image className='rounded-3xl' src={gelX2} />
+                                <Image className='rounded-3xl' src={gelX3} />
 
                             </div>
 
                         </div>
                         <div>
                             <span className='block text-2xl font-semibold text-[#ED069E] mb-4 text-center'>Semi-permanant </span>
-                            <div className='grid grid-cols-3 gap-x-20'>
-                                <Image className='rounded-2xl' src={semi1} />
-                                <Image className='rounded-2xl' src={semi2} />
-                                <Image className='rounded-2xl' src={semi3} />
+                            <div className='grid grid-cols-3 gap-x-4 md:gap-x-20'>
+                                <Image className='rounded-3xl' src={semi1} />
+                                <Image className='rounded-3xl' src={semi2} />
+                                <Image className='rounded-3xl' src={semi3} />
 
                             </div>
 
