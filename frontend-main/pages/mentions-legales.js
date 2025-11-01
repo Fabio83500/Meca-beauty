@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import gardenPizz from "@/public/assets/images/gardenPizz.png"
 export default function mentionsLegales() {
     return (
         <div>
@@ -14,7 +13,6 @@ export default function mentionsLegales() {
       </Head>
       <header className='py-2 px-4 lg:fixed lg:px-14 top-0 left-0 w-full flex justify-between items-center z-50'>
           <a href="/" className="nom">
-            <Image src={gardenPizz} width={100} height={100} />
           </a>
           <ul className='flex space-x-10 items-center text-white '>
             <li><a className='w-full hover:text-[#EB3A3A]' href="/#accueil">Accueil</a></li>
