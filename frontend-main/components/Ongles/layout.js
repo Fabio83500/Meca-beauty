@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import imgOngles from "@/public/assets/images/imgOngles.jpg"
-import Link
- from 'next/link'
+import Link from 'next/link'
 import gel1 from "@/public/assets/images/gel/gel1.jpg"
 import gel2 from "@/public/assets/images/gel/gel2.jpg"
 import gel3 from "@/public/assets/images/gel/gel3.jpg"
