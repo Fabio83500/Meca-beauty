@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Hero from "@/components/Hero/layout"
 import imgHero from "@/public/assets/images/hero.jpg"
+import Ongles from '@/components/Ongles/layout';
 import QuiSommesNous from '@/components/QuiSommesNous/layout';
 import EmbelissementRegard from '@/components/EmbelissementRegard/layout';
 import Services from "@/components/Services/layout"
@@ -74,6 +75,7 @@ export default function Home() {
           <Services />
         </div>
         <div className='max-w-7xl mx-auto px-4 md:px-8 xl:px-0'>
+          <Ongles />
           <QuiSommesNous />
           <EmbelissementRegard />
           <EpilationFil />
