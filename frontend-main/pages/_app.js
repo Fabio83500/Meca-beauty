@@ -5,6 +5,7 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"], // Ajoute les poids que tu veux
   variable: "--font-poppins",
+   display: 'swap',
 });
 export default function App({ Component, pageProps }) {
   return (

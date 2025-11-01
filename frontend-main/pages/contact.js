@@ -8,9 +8,7 @@ import gel1 from "@/public/assets/images/gel/gel1.jpg"
 import gel2 from "@/public/assets/images/gel/gel2.jpg"
 import gel3 from "@/public/assets/images/gel/gel3.jpg"
 
-import gelx1 from "@/public/assets/images/gelx/americaine1.jpg"
-import gelx2 from "@/public/assets/images/gelx/americaine2.jpg"
-import gelx3 from "@/public/assets/images/gelx/americaine3.jpg"
+
 
 
 export default function Home() {
@@ -104,9 +102,7 @@ export default function Home() {
                                 <Image className='rounded-3xl' src={gel1} />
                                 <Image className='rounded-3xl' src={gel2} />
                                 <Image className='rounded-3xl' src={gel3} />
-                                <Image className='rounded-3xl' src={gelx1} />
-                                <Image className='rounded-3xl' src={gelx2} />
-                                <Image className='rounded-3xl' src={gelx3} />
+                               
                         </div>
                     </div>
                     </div>
