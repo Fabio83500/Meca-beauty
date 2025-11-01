@@ -6,9 +6,9 @@ import gel1 from "@/public/assets/images/gel/gel1.jpg"
 import gel2 from "@/public/assets/images/gel/gel2.jpg"
 import gel3 from "@/public/assets/images/gel/gel3.jpg"
 
-import gelX1 from "@/public/assets/images/gelx/americaine1.jpg"
-import gelX2 from "@/public/assets/images/gelx/americaine2.jpg"
-import gelX3 from "@/public/assets/images/gelx/americaine3.jpg"
+import gelx1 from "@/public/assets/images/gelx/americaine1.jpg"
+import gelx2 from "@/public/assets/images/gelx/americaine2.jpg"
+import gelx3 from "@/public/assets/images/gelx/americaine3.jpg"
 
 import semi1 from "@/public/assets/images/semi/semi1.jpg"
 import semi2 from "@/public/assets/images/semi/semi2.jpg"
@@ -96,9 +96,9 @@ export default function Ongles() {
                         <div className='my-10'>
                             <span className='block text-2xl font-semibold text-[#ED069E] mb-4 text-center'>Ongle en gel X / Pose américaine </span>
                             <div className='grid grid-cols-3 gap-x-4 md:gap-x-20'>
-                                <Image className='rounded-3xl' src={gelX1} />
-                                <Image className='rounded-3xl' src={gelX2} />
-                                <Image className='rounded-3xl' src={gelX3} />
+                                <Image className='rounded-3xl' src={gelx1} />
+                                <Image className='rounded-3xl' src={gelx2} />
+                                <Image className='rounded-3xl' src={gelx3} />
 
                             </div>
 
