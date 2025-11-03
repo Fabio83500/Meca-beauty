@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import imgEpilationFil from "@/public/assets/images/imgEpilationFil.jpg"
+import imgEpilationFil from "@/public/assets/images/imgEpilation.jpg"
 import Link from 'next/link'
 export default function EpilationFil() {
     return (
         <>
-            <div id='quiSommesNous' className='my-20 grid md:grid-cols-2 gap-x-20 '>
+            <div id='epilation' className='my-20 grid md:grid-cols-2 gap-x-20 '>
             <div>
                     <h2 className='text-2xl font-semibold text-[#ED069E] mb-2'>Epilation au fil</h2>
                     <p className=' my-4'>

@@ -98,7 +98,7 @@ export default function Home() {
 
                     <div className='flex flex-col items-center justify-center mt-20 space-y-6 mb-20'>
                         <div>
-                            <span className='block text-4xl font-semibold text-[#ED069E] mt-10 mb-4 text-center'>Mes réalisation </span>
+                            <span className='block text-4xl font-semibold text-[#ED069E] mt-10 mb-4 text-center'>Mes réalisations </span>
 
                             <div className='grid grid-cols-3 gap-x-4 md:gap-20'>
                                 <Image className='rounded-3xl' src={gel1} />

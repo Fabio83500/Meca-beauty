@@ -34,31 +34,35 @@ export default function Ongles() {
 
                     <Image src={imgOngles} alt="Qui sommes nous" className="object-cover h-[57.5rem] rounded-3xl" />
                     <div>
+                        <h4 className='text-xl text-[#ED069E] font-medium'>Qu’est-ce qu’une Prothésiste Ongulaire ? </h4>
                          <p className=' mt-4 text-centermb-10' >
-                        Qu’est-ce qu’une Prothésiste Ongulaire ? <br/><br/>
-                        Une prothésiste ongulaire est une professionnelle spécialisée dans 
-                        la beauté et le soin des ongles. Son rôle est de sublimer les mains 
-                        et les pieds à travers différentes techniques de pose, de renforcement 
-                        et de décoration. Elle travaille aussi bien sur l’aspect esthétique que sur la 
-                        santé et la protection de l’ongle naturel.<br/>
+
+                        Une <span className='text-[#ED069E]'>prothésiste ongulaire</span> est une professionnelle
+                         spécialisée dans 
+                        la beauté et le <span className='text-[#ED069E]'>soin des ongles.</span> Son rôle est de sublimer 
+                        les <span className='text-[#ED069E]'>mains </span> 
+                        et les <span className='text-[#ED069E]'>pieds </span> à travers différentes techniques de pose,
+                        de renforcement 
+                        et de décoration. Elle travaille aussi bien sur l’aspect <span className='text-[#ED069E]'>esthétique</span> que sur la 
+                        santé et la <span className='text-[#ED069E]'>protection</span> de l’<span className='text-[#ED069E]'>ongle naturel.</span><br/>
 
                         MECA Beauty – L’art de l’ongle sur mesure <br/>
 
-                        Chez Meca Beauty, chaque pose est réalisée avec précision, passion et créativité.<br/>
+                        Chez Meca Beauty, chaque pose est réalisée avec <span className='text-[#ED069E]'>précision, passion et créativité.</span><br/>
 
-                        Je vous propose des prestations adaptées à vos envies et à vos besoins, pour des ongles élégants, 
-                        solides et durables. <br/><br/>
+                        Je vous propose des prestations adaptées à vos envies et à vos besoins, pour des ongles <span className='text-[#ED069E]'>
+                         élégants, solides et durables.   </span> <br/><br/>
 
-                        Mes prestations :<br/>
+                        Mes prestations :<br/><br/>
 
-                        Pose en gel : technique professionnelle permettant d’allonger, renforcer et structurer
+                        <span className='text-[#ED069E]'>-Pose en gel : </span>technique professionnelle permettant d’allonger, renforcer et structurer
                          vos ongles pour un résultat impeccable et longue tenue.<br/><br/>
                         Extension au chablon / poppit : création d’un ongle parfaitement modelé sans capsule,
                          pour un rendu naturel.<br/><br/>
-                        Pose avec des demi-capsules : pour une extension rapide, régulière et résistante.<br/><br/>
-                        Capsules américaines / Gel X : la tendance du moment ! Des capsules préformées pour une pose 
+                        <span className='text-[#ED069E]'>-Pose avec des demi-capsules :</span> pour une extension rapide, régulière et résistante.<br/><br/>
+                        <span className='text-[#ED069E]'>-Capsules américaines / Gel X :</span> la tendance du moment ! Des capsules préformées pour une pose 
                         rapide et un résultat fin, léger et ultra brillant.<br/><br/>
-                        Vernis semi-permanent : idéal pour celles qui souhaitent une manucure soignée et brillante
+                        <span className='text-[#ED069E]'>-Vernis semi-permanent :</span> idéal pour celles qui souhaitent une manucure soignée et brillante
                          pendant 2 à 3 semaines sans abîmer l’ongle naturel.
                     </p>
                  

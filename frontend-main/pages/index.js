@@ -71,7 +71,7 @@ export default function Home() {
           </div>
         </nav>
         <Hero />
-        <div className='md:relative 2xl:-top-16 md:xl:-top-8 px-4 md:px-8 xl:px-0'>
+        <div className='md:relative xl:-top-16 px-4 md:px-8 xl:px-0'>
           <Services />
         </div>
         <div className='max-w-7xl mx-auto px-4 md:px-8 xl:px-0'>

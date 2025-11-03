@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import imgOngles from "@/public/assets/images/imgOngles.jpg"
-
+import Link from 'next/link';
 export default function Ongles() {
     const textOngle = `Une prothésiste ongulaire est une professionnelle spécialisée dans 
                         la beauté et le soin des ongles. Son rôle est de sublimer les mains 
@@ -22,29 +22,36 @@ teinture, pour intensifier la couleur du sourcil.`;
 
     return (
         <>
-            <div class="grid md:grid-cols-4 gap-6 items-stretch  pt-10 md:mx-10">
-                <div class="bg-white shadow-lg rounded-2xl shadow-md p-6 text-[#7a7a7a] ">
+            <div className="grid md:grid-cols-4 gap-6 items-stretch  pt-10 md:mx-10">
+                <div className="bg-white shadow-lg rounded-2xl shadow-md p-6 ">
                     <span className='text-4xl'>💅🏽</span>
-                    <span class="block text-xl text my-2 font-bold">Beauté des ongles  </span>
-                        <p>{textOngle.slice(0, 200) + '...' }</p>
+                    <span className="block text-xl text-[#ED069E] text my-2 font-bold">Beauté des ongles  </span>
+                        <p className='text-[#7a7a7a]'>{textOngle.slice(0, 150) + '...' }</p>
+                        <Link href="/#ongles" className="font-bold mt-2 block text-[#7a7a7a] hover:text-pink-600">Voir plus...</Link>                        
                 </div>
-                    <div class="bg-white shadow-lg rounded-2xl shadow-md p-6 text-[#7a7a7a] ">
-                    <span className='text-4xl'>💄</span>
+                    <div className="bg-white shadow-lg rounded-2xl shadow-md p-6  ">
+                    <span className='text-4xl'>👁️</span>
                     
-                    <span class="block text-xl my-2 font-bold">Le brow lift </span>
-                        <p>{textBrowLift.slice(0, 200) + '...' }</p>
+                    <span className="block text-xl text-[#ED069E] my-2 font-bold">Le brow lift </span>
+                        <p className='text-[#7a7a7a]'>{textBrowLift.slice(0, 150) + '...' }</p>
+                        <Link href="/#browLift" className="font-bold mt-2 block text-[#7a7a7a] hover:text-pink-600">Voir plus...</Link>                        
+
                 </div>
-                   <div class="bg-white shadow-lg rounded-2xl shadow-md p-6 text-[#7a7a7a] ">
+                   <div className="bg-white shadow-lg rounded-2xl shadow-md p-6 text-[#7a7a7a] ">
                     <span className='text-4xl'>🪡</span>
                     
-                    <span class="block text-xl my-2 font-bold">Épilation au fil </span>
-                        <p>{textEpilation.slice(0, 200) + '...' }</p>
+                    <span className="block text-xl my-2  text-[#ED069E] font-bold">Épilation au fil </span>
+                        <p>{textEpilation.slice(0, 150) + '...' }</p>
+                        <Link href="/#epilation" className="font-bold mt-2 block text-[#7a7a7a] hover:text-pink-600" >Voir plus...</Link>                        
+
                 </div>
-                 <div class="bg-white shadow-lg rounded-2xl shadow-md p-6 text-[#7a7a7a] ">
+                 <div className="bg-white shadow-lg rounded-2xl shadow-md p-6 text-[#7a7a7a] ">
                     <span className='text-4xl'>💎</span>
                     
-                    <span class="block text-xl my-2 font-bold">Strass dentaire </span>
-                        <p>{textStrass.slice(0, 200) + '...' }</p>
+                    <span className="block text-xl my-2  text-[#ED069E] font-bold">Strass dentaire </span>
+                        <p className='text-[#7a7a7a]'>{textStrass.slice(0, 150) + '...' }</p>
+                        <Link href="/#strass" className="font-bold mt-2 block text-[#7a7a7a] hover:text-pink-600">Voir plus...</Link>                        
+
                 </div>
                 
             </div>

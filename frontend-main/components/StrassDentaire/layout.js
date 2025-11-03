@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import imgStrass from "@/public/assets/images/imgStrass.jpg"
+import imgStrass from "@/public/assets/images/strass.png"
 import Link from 'next/link'
 
 export default function StrassDentaire() {
     return (
         <>
-            <div id='quiSommesNous' className='my-20 grid md:grid-cols-2 gap-x-20 '>
+            <div id='strass' className='my-20 grid md:grid-cols-2 gap-x-20 '>
                     <Image src={imgStrass} alt="Qui sommes nous" className="h-96 object-cover rounded-3xl mb-10" />
             <div>
                     <h2 className='text-2xl font-semibold text-[#ED069E] mb-2'>Strass dentaire </h2>
@@ -16,7 +16,6 @@ export default function StrassDentaire() {
                           La poste se fait sans douleur sans percer et sans abîmer la dent. 
                           Le strass est simplement collé à l’aide d’un gel dentaire professionnel
                            et polymérisé à la lumière. <br/> <br/>
-                           À partir de 20 €
 
                     </p>
                      

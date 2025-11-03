@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function EmbelissementRegard() {
     return (
         <>
-            <div id='quiSommesNous' className='my-20 grid md:grid-cols-2 gap-x-20 gap-y-10 '>
+            <div id='browLift' className='my-20 grid md:grid-cols-2 gap-x-20 gap-y-10 '>
                     <Image src={imgQuiSommesNous} alt="Qui sommes nous" className="h-96 object-cover rounded-3xl" />
             <div>
                     <h2 className='text-2xl font-semibold text-[#ED069E] mb-4'>Embelissement du regard</h2>
