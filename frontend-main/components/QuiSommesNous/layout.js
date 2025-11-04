@@ -26,12 +26,16 @@ export default function QuiSommesNous() {
                         (Brow Lift, diplômée depuis septembre 2024) : restructuration et teinture des sourcils.
                         À partir de 25 €. <br /> <br />
 
-                        - <span className='text-[#ED069E] font-medium'>Épilation au fil : </span> pour un résultat net et précis (diplômée depuis mai 2025). À partir de 7 €. <br /> <br />
+                        - <span className='text-[#ED069E] font-medium'>Épilation au fil : </span> pour un résultat net
+                         et précis (diplômée depuis mai 2025). À partir de 7 €. <br /> <br />
 
-                        - <span className='text-[#ED069E] font-medium'>Strass dentaire :</span> apportez une touche d’éclat et d’originalité à votre sourire (diplômée depuis octobre 2025). <br /> <br />
+                        - <span className='text-[#ED069E] font-medium'>Strass dentaire :</span> apportez une touche
+                         d’éclat et d’originalité à votre sourire (diplômée depuis octobre 2025). 
+                         À partir de 20 €.
+                         <br /> <br />
 
                         Chaque prestation est réalisée avec soin, dans le respect de vos envies et de votre style,
-                         pour un résultat à la fois élégant, moderne et durable. MECA Beauty,
+                         pour un résultat à la fois élégant, moderne et durable. <br/><br/>MECA Beauty,
                           c’est un lieu pensé pour vous : <span className=' text-[#ED069E]'>un espace rose</span>, girly et apaisant, ou vous pouvez prendre du 
                           temps pour vous, <span className=' text-[#ED069E]'>vous détendre et ressortir avec le sourire.</span>
                         Mon objectif est simple, que vous vous sentiez belle, confiante et épanouie après chaque rendez-vous. <br /> <br />

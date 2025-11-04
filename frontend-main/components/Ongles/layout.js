@@ -32,8 +32,8 @@ export default function Ongles() {
 
                 <div id='ongles' className=' grid md:grid-cols-2 gap-x-20 '>
 
-                    <Image src={imgOngles} alt="Qui sommes nous" className="object-cover h-[57.5rem] rounded-3xl" />
-                    <div>
+                    <Image src={imgOngles} alt="Qui sommes nous" className="object-cover md:h-[57.5rem] rounded-3xl" />
+                    <div className='mt-6'>
                         <h4 className='text-xl text-[#ED069E] font-medium'>Qu’est-ce qu’une Prothésiste Ongulaire ? </h4>
                          <p className=' mt-4 text-centermb-10' >
 

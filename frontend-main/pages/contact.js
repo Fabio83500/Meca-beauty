@@ -61,9 +61,10 @@ export default function Home() {
               </ul>
             </div>
             {/* Menu Mobile */}
-            <div className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-[#131615] 
+            <div className={`${isOpen ? "block" : "hidden"} absolute top-14 left-0 w-full bg-[#95216C] 
       text-white md:hidden`}>
               <ul className="flex flex-col p-4 space-y-2">
+                <li><a href="/" className="block py-2 px-3">Accueil</a></li>
                 <li><a href="/#ongles" className="block py-2 px-3">Beauté des ongles</a></li>
                 <li><a href="/#quiSommesNous" className="block py-2 px-3">Qui sommes nous</a></li>
               </ul>
@@ -100,7 +101,7 @@ export default function Home() {
                         <div>
                             <span className='block text-4xl font-semibold text-[#ED069E] mt-10 mb-4 text-center'>Mes réalisations </span>
 
-                            <div className='grid grid-cols-3 gap-x-4 md:gap-20'>
+                            <div className='grid grid-cols-3 gap-6 md:gap-20'>
                                 <Image className='rounded-3xl' src={gel1} />
                                 <Image className='rounded-3xl' src={gel2} />
                                 <Image className='rounded-3xl' src={gel3} />

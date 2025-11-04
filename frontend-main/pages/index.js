@@ -2,13 +2,14 @@ import Head from 'next/head'
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Hero from "@/components/Hero/layout"
-import imgHero from "@/public/assets/images/hero.jpg"
+import logo from "@/public/assets/images/logo.jpg"
 import Ongles from '@/components/Ongles/layout';
 import QuiSommesNous from '@/components/QuiSommesNous/layout';
 import EmbelissementRegard from '@/components/EmbelissementRegard/layout';
 import Services from "@/components/Services/layout"
 import EpilationFil from '@/components/EpilationFil/layout';
 import StrassDentaire from '@/components/StrassDentaire/layout';
+
 export default function Home() {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -37,8 +38,10 @@ export default function Home() {
           <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto py-4 px-4 md:px-0">
             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             </a>
-            <button onClick={handleClick} className="md:hidden text-white">
-              {isOpen ? (
+            <button onClick={handleClick} className="md:hidden flex items-center  text-white">
+             
+              <div>
+                 {isOpen ? (
                 // Icône croix
                 <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -48,7 +51,11 @@ export default function Home() {
                 <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
+                
               )}
+
+              </div>
+             
             </button>
             <div className='hidden md:block'>
               
@@ -61,11 +68,14 @@ export default function Home() {
               </ul>
             </div>
             {/* Menu Mobile */}
-            <div className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-[#131615] 
+            <div className={`${isOpen ? "block" : "hidden"} absolute top-14 left-0 w-full bg-[#95216C] 
       text-white md:hidden`}>
+        
               <ul className="flex flex-col p-4 space-y-2">
                 <li><a href="/#ongles" className="block py-2 px-3">Beauté des ongles</a></li>
                 <li><a href="/#quiSommesNous" className="block py-2 px-3">Qui sommes nous</a></li>
+                <li className='px-3'><a className="w-full bg-white px-4 py-1 rounded-2xl text-[#ED069E]" href="/contact">Me contacter</a></li>
+
               </ul>
             </div>
           </div>
